@@ -42,6 +42,3 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
 ## Contributions
 
 If you would like to contribute to this project, please submit a pull request. We welcome your contribution!
-
-
-Translated with DeepL.com (free version)
