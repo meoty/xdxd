@@ -28,7 +28,7 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
 - The user interface components were created using Jetpack Compose.
 - **ViewModel:** Middleware classes that manage the connection to the UI and execute the business logic.
 
-##The app has following packages:
+## The app has following packages:
 
 ![image](https://github.com/meoty/xdxd/assets/141409558/6d7dc035-b003-49f3-9b80-391875f6d8f2)
 
