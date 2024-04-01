@@ -7,7 +7,7 @@ This Project, developed using MVVM architecture, connects to a RESTful API with 
 
 - **[OkHttp](https://square.github.io/okhttp/) and [Retrofit](https://square.github.io/retrofit/):** Used to send HTTP requests and connect to the API.
 - **Gson:** Used for processing JSON data.
-- **Coroutines:** Used for asynchronous programming.
+- **[Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines):** Used for asynchronous programming.
 - **AndroidX Components:** RecyclerView, AppCompat, Material Design components and other AndroidX libraries were used.
 
 ## Features
