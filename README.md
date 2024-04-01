@@ -6,16 +6,16 @@ This Project, developed using MVVM architecture, connects to a RESTful API with 
 ## Libraries and Technologies Used
 
 - **OkHttp and Retrofit:** Used to send HTTP requests and connect to the API.
-- Gson:** Used for processing JSON data.
-- Coroutines:** Used for asynchronous programming.
-- AndroidX Components:** RecyclerView, AppCompat, Material Design components and other AndroidX libraries were used.
+- **Gson:** Used for processing JSON data.
+- **Coroutines:** Used for asynchronous programming.
+- **AndroidX Components:** RecyclerView, AppCompat, Material Design components and other AndroidX libraries were used.
 
 ## Features
 **Basic CRUD Operations:**
 - **Add Shoes:** Users can add new shoe information.
-- Update Shoes:** Users can update existing shoe information.
-- Delete Shoes:** Users can delete existing shoes.
-- View Shoes:** Users can view existing shoes.
+- **Update Shoes:** Users can update existing shoe information.
+- **Delete Shoes:** Users can delete existing shoes.
+- **View Shoes:** Users can view existing shoes.
 
 
 ## MVVM Architecture
@@ -25,7 +25,7 @@ This Project, developed using MVVM architecture, connects to a RESTful API with 
 This project was developed using the MVVM (Model-View-ViewModel) architecture. The role of each component is as follows:
 
 - **Model:** Shoe data model classes were used to represent the data returned from API calls.
-- The user interface components were created using Jetpack Compose.
+- **View:** User interface components
 - **ViewModel:** Middleware classes that manage the connection to the UI and execute the business logic.
 
 ## The app has following packages:
