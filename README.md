@@ -1,6 +1,6 @@
 # MVVM Android Sample Shoe Management System
 
-## About
+## About Project
 This Project, developed using MVVM architecture, connects to a RESTful API with Retrofit, is an Android application that allows users to manage their shoe data. Users can perform basic CRUD Operations.
 
 ## Libraries and Technologies Used
