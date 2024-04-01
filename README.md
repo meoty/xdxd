@@ -5,7 +5,7 @@ This Project, developed using MVVM architecture, connects to a RESTful API with 
 
 ## Libraries and Technologies Used
 
-- **OkHttp and Retrofit:** Used to send HTTP requests and connect to the API.
+- **OkHttp and [Retrofit](https://github.com/meoty/xdxd/assets/141409558/7bf4c1d8-ba8a-4f69-8833-f3650c67404d):** Used to send HTTP requests and connect to the API.
 - **Gson:** Used for processing JSON data.
 - **Coroutines:** Used for asynchronous programming.
 - **AndroidX Components:** RecyclerView, AppCompat, Material Design components and other AndroidX libraries were used.
