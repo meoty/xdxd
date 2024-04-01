@@ -1,6 +1,7 @@
 # MVVM Android Ayakkabı Mağazası Uygulaması
 
-Bu proje, kullanıcıların ayakkabı verilerini yönetmelerine olanak tanıyan bir Android uygulamasıdır. Kullanıcılar ayakkabı ekleyebilir, güncelleyebilir, silebilir ve mevcut ayakkabıları görüntüleyebilir. Proje, MVVM mimarisi kullanılarak geliştirilmiş olup, Retrofit ile bir RESTful API'ye bağlanır.
+##About
+Bu proje, kullanıcıların ayakkabı verilerini yönetmelerine olanak tanıyan bir Android uygulamasıdır. Kullanıcılar temel CRUD Operasyonlarını yapabilir. Proje, MVVM mimarisi kullanılarak geliştirilmiş olup, Retrofit ile bir RESTful API'ye bağlanır.
 
 ## Kullanılan Kütüphaneler ve Teknolojiler
 
@@ -10,7 +11,7 @@ Bu proje, kullanıcıların ayakkabı verilerini yönetmelerine olanak tanıyan 
 - **AndroidX Bileşenleri:** RecyclerView, AppCompat, Material Design bileşenleri ve diğer AndroidX kütüphaneleri kullanıldı.
 
 ## Özellikler
-
+-**Temel CRUD Operasyonları:**
 - **Ayakkabı Ekleme:** Kullanıcılar yeni ayakkabı bilgilerini ekleyebilir.
 - **Ayakkabı Güncelleme:** Kullanıcılar mevcut ayakkabı bilgilerini güncelleyebilir.
 - **Ayakkabı Silme:** Kullanıcılar mevcut ayakkabıları silebilir.
