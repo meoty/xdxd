@@ -39,7 +39,7 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
 2. Open the project folder in Android Studio.
 3. Run the application using an Android device or emulator.
 
-### References
+## References
 
 - ViewModel https://developer.android.com/topic/libraries/architecture/viewmodel
 - LiveData https://developer.android.com/topic/libraries/architecture/livedata
