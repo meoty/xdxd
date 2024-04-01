@@ -36,8 +36,19 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
 ## How to Launch
 
 1. Clone this repository: `git clone https://github.com/kullanici_adi/AyakkabiMagazasi.git`
-2. Open the project folder in Android Studio.
-3. Run the application using an Android device or emulator.
+2. A database with JSON Output like this
+   ```
+   "Shoes": {
+    "ShoeBrand": "",
+    "ShoeColour": "",
+    "ShoeId": "",
+    "ShoeModel": "",
+    "ShoePrice": "",
+    "ShoeSize": ""
+  }
+  ````
+4. Open the project folder in Android Studio.
+5. Run the application using an Android device or emulator.
 
 ## References
 
