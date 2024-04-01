@@ -45,8 +45,8 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
     "ShoeModel": "",
     "ShoePrice": "",
     "ShoeSize": ""
-  }
-  ````
+   }
+   ```
 4. Open the project folder in Android Studio.
 5. Run the application using an Android device or emulator.
 
