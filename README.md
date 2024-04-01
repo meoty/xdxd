@@ -1,43 +1,46 @@
-# MVVM Android Ayakkabı Mağazası Uygulaması
+# MVVM Android Sample Shoe Management System
 
 ##About
-Bu proje, kullanıcıların ayakkabı verilerini yönetmelerine olanak tanıyan bir Android uygulamasıdır. Kullanıcılar temel CRUD Operasyonlarını yapabilir. Proje, MVVM mimarisi kullanılarak geliştirilmiş olup, Retrofit ile bir RESTful API'ye bağlanır.
+This Project, developed using MVVM architecture, connects to a RESTful API with Retrofit, is an Android application that allows users to manage their shoe data. Users can perform basic CRUD Operations.
 
-## Kullanılan Kütüphaneler ve Teknolojiler
+## Libraries and Technologies Used
 
-- **OkHttp ve Retrofit:** HTTP istekleri göndermek ve API'ye bağlanmak için kullanıldı.
-- **Gson:** JSON verilerini işlemek için kullanıldı.
-- **Coroutines:** Asenkron programlama için kullanıldı.
-- **AndroidX Bileşenleri:** RecyclerView, AppCompat, Material Design bileşenleri ve diğer AndroidX kütüphaneleri kullanıldı.
+- **OkHttp and Retrofit:** Used to send HTTP requests and connect to the API.
+- Gson:** Used for processing JSON data.
+- Coroutines:** Used for asynchronous programming.
+- AndroidX Components:** RecyclerView, AppCompat, Material Design components and other AndroidX libraries were used.
 
-## Özellikler
--**Temel CRUD Operasyonları:**
-- **Ayakkabı Ekleme:** Kullanıcılar yeni ayakkabı bilgilerini ekleyebilir.
-- **Ayakkabı Güncelleme:** Kullanıcılar mevcut ayakkabı bilgilerini güncelleyebilir.
-- **Ayakkabı Silme:** Kullanıcılar mevcut ayakkabıları silebilir.
-- **Ayakkabı Görüntüleme:** Kullanıcılar mevcut ayakkabıları görüntüleyebilir.
+## Features
+**Basic CRUD Operations:**
+- **Add Shoes:** Users can add new shoe information.
+- Update Shoes:** Users can update existing shoe information.
+- Delete Shoes:** Users can delete existing shoes.
+- View Shoes:** Users can view existing shoes.
 
-## MVVM Mimarisi
+
+## MVVM Architecture
 
 ![mvvm-diagram](https://github.com/meoty/xdxd/assets/141409558/7bf4c1d8-ba8a-4f69-8833-f3650c67404d)
 
-Bu proje, MVVM (Model-View-ViewModel) mimarisi kullanılarak geliştirilmiştir. Her bileşenin rolü şu şekildedir:
+This project was developed using the MVVM (Model-View-ViewModel) architecture. The role of each component is as follows:
 
-- **Model:** Ayakkabı veri modeli sınıfları, API çağrılarından dönen verilerin temsili için kullanıldı.
-- **View:** Kullanıcı arayüzü bileşenleri, Jetpack Compose kullanılarak oluşturuldu.
-- **ViewModel:** UI ile bağlantıyı yöneten ve iş mantığını yürüten ara katman sınıflarıdır.
+- **Model:** Shoe data model classes were used to represent the data returned from API calls.
+- The user interface components were created using Jetpack Compose.
+- **ViewModel:** Middleware classes that manage the connection to the UI and execute the business logic.
 
-## Nasıl Başlatılır
-
-1. Bu depoyu klonlayın: `git clone https://github.com/kullanici_adi/AyakkabiMagazasi.git`
-2. Android Studio'da proje klasörünü açın.
-3. Bir Android cihazı veya emülatör kullanarak uygulamayı çalıştırın.
-
-## Katkılar
+##The app has following packages:
+![image](https://github.com/meoty/xdxd/assets/141409558/6d7dc035-b003-49f3-9b80-391875f6d8f2)
 
 
-Bu projeye katkıda bulunmak isterseniz, lütfen bir çekme isteği gönderin. Katkılarınızı memnuniyetle karşılarız!
+## How to Launch
 
-## Lisans
+1. Clone this repository: `git clone https://github.com/kullanici_adi/AyakkabiMagazasi.git`
+2. Open the project folder in Android Studio.
+3. Run the application using an Android device or emulator.
 
-Bu proje, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyin.
+## Contributions
+
+If you would like to contribute to this project, please submit a pull request. We welcome your contribution!
+
+
+Translated with DeepL.com (free version)
